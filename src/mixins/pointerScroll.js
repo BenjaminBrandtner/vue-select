@@ -22,7 +22,7 @@ export default {
      * @returns {*}
      */
     maybeAdjustScroll() {
-      const optionEl = false;
+       let optionEl = false;
        if(this.$refs.dropdownMenu) {
          optionEl = this.$refs.dropdownMenu.children[this.typeAheadPointer] || false;
        }
